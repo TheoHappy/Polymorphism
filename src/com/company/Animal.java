@@ -1,9 +1,9 @@
 package com.company;
 
 public abstract class Animal {
-    String nameOfTheAnimal;
-    String animalGroup;
-    int age;
+    protected String nameOfTheAnimal;
+    protected String animalGroup;
+    protected int age;
 
     public Animal(String nameOfTheAnimal, String animalGroup, int age) {
         this.nameOfTheAnimal = nameOfTheAnimal;

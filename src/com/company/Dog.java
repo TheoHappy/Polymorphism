@@ -1,7 +1,7 @@
 package com.company;
 
 public class Dog extends Animal {
-    String dogBreed;
+    private String dogBreed;
 
     public Dog(String nameOfTheAnimal, String animalGroup, int age, String dogBreed) {
         super(nameOfTheAnimal, animalGroup, age);
